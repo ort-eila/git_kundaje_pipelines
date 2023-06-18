@@ -1,0 +1,6 @@
+# nextFlow: this will install the exectution locally (better for server where you dont have control on the path - when you are not an admin)
+# when you are an admin, like on worker machine, you can add the nextflow to the PATH and execute the nextflow from anywhere 
+# step1:
+# !wget -qO- https://get.nextflow.io | bash
+# step2: dependecy library for nextflow
+# conda install -c conda-forge openjdk=11
